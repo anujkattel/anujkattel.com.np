@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/anujkattel.com.np/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="/anujkattel.com.np/logo192.png" />
+    <link rel="manifest" href="/anujkattel.com.np/manifest.json" />
+    <script src="https://kit.fontawesome.com/d9b4604fa2.js" crossorigin="anonymous"></script>
+    <title>ANUJ KATTEL WEBSITE</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcons = document.querySelector('.nav');
+            const mobileIcon = document.querySelector('.mobile');
+
+            mobileIcon.addEventListener('click', () => {
+                menuIcons.classList.toggle('menuicons');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <div class="mobile">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <a href="/"  class='logoicon'>
+                <h1>ANUJ KATTEL</h1>
+            </a>
+        </div>
+    </div>
+    <div class="nav menuicons">
+        <a href="/" >Home</a>
+        <a href="./about.html" >About</a>
+        <a href="./project.html" >Project</a>
+        <a href="./blog.html" >Blog</a>
+    </div>
+    <div class="about">
+        <div class="img">
+            <img src="./assets/rocket.jpg" alt="" />
+        </div>
+        <div class="details">
+            <h1>About me</h1>
+            <p>
+                I am a frontend developer with a passion of developing different, complex web application.My top three favourate resources for learning are Freecodecamp, Udemy, codewithharry
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
