@@ -1,0 +1,80 @@
+/* word.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.level-selector {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.text-to-type {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.typed-text {
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.ad {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100px; /* Adjust width as needed */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.ad-left {
+    left: 0;
+    background-color: #333;
+
+}
+
+.ad-right {
+    right: 0;
+    background-color: #333;
+
+}
+
+.container {
+    /* Your existing container styles */
+    margin-left: 120px; /* Adjust to accommodate ad width */
+    margin-right: 120px; /* Adjust to accommodate ad width */
+}
